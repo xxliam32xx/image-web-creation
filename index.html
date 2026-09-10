@@ -600,7 +600,7 @@
   <footer><span>One ZIP, one folder per product</span><span>Nothing is uploaded to a server</span></footer>
 </main>
 <script>
-const $=id=>document.getElementById(id),built=[{"id":"blank","name":"Plain white","kind":"built","preset":"blank"}];
+const $=id=>document.getElementById(id),built=[{"id":"blank","name":"Plain white","kind":"built","preset":"blank"},{"id":"sample","name":"Sample Brand (demo)","kind":"built","data":"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjE2MDAiIHZpZXdCb3g9IjAgMCAxNjAwIDE2MDAiPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDgwMCAyMTUpIj4KICAgIDxyZWN0IHg9Ii0zNjAiIHk9Ii0xMDUiIHdpZHRoPSI3MjAiIGhlaWdodD0iMjEwIiByeD0iMzQiIGZpbGw9IiMyNDMyM2MiLz4KICAgIDxyZWN0IHg9Ii0zMTUiIHk9Ii02MCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHJ4PSIyMiIgZmlsbD0iIzRmNzE4OSIvPgogICAgPHBhdGggZD0iTS0yODIgMjIgTC0yNTUgLTI1IEwtMjI4IDIyIEwtMjAxIC0yNSBMLTIwMSA0MyBMLTI4MiA0MyBaIiBmaWxsPSIjZmZmZmZmIi8+CiAgICA8dGV4dCB4PSItMTUwIiB5PSItNCIgZmlsbD0iI2ZmZmZmZiIgZm9udC1mYW1pbHk9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNjgiIGZvbnQtd2VpZ2h0PSI3MDAiIGxldHRlci1zcGFjaW5nPSIzIj5TQU1QTEU8L3RleHQ+CiAgICA8dGV4dCB4PSItMTUwIiB5PSI1NSIgZmlsbD0iI2M4ZDNkYSIgZm9udC1mYW1pbHk9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzYiIGZvbnQtd2VpZ2h0PSI2MDAiIGxldHRlci1zcGFjaW5nPSI4Ij5CUkFORDwvdGV4dD4KICA8L2c+Cjwvc3ZnPg=="}];
 let logos=[],items=[],results=[],format="PNG",processingMode="branded";
 const settings=()=>({mode:"auto",threshold:18,padding:28,anchor:.56,top:24,bottom:28,gap:18,overlap:42});
 const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2),bytes=n=>n<1048576?(n/1024).toFixed(1)+" KB":(n/1048576).toFixed(1)+" MB";
